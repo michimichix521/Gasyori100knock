@@ -14,8 +14,8 @@ def decrease_color(img):
 # Read image
 img = cv2.imread("imori.jpg")
 
-# Dicrease color
-out = dicrease_color(img)
+# Decrease color
+out = decrease_color(img)
 
 cv2.imwrite("out.jpg", out)
 cv2.imshow("result", out)
